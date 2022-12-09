@@ -55,7 +55,7 @@ def convert_and_push_ca_cert_to_android(ca_cert_file,ip,port):
         print("Unable to find devices")
     
     
-    if f"{ip}:{port}" in serials:
+    if serials:
         print("ADB device is connected")
     else:
         print("Device is not connected Tying to connect")
