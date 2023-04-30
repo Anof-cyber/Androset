@@ -1,5 +1,5 @@
-# Android-Certificate-
-Automated script to push Burp Suite certificate in Android 
+# Androset
+Automated script to convert and push Burp Suite certificate in Android, and modify Android's IP table to redirect all traffic to Burp Suite.
 
 ## Prerequisites
 
