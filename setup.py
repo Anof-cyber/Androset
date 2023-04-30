@@ -18,7 +18,7 @@ setup(
     author_email='kalalsourav20@gmail.com',
     license='MIT license',
     url='https://github.com/Anof-cyber/androset',
-    download_url='https://github.com/Anof-cyber/androset/archive/v1.1.zip' % __import__('arjun').__version__,
+    download_url='https://github.com/Anof-cyber/androset/archive/v1.1.zip'
     zip_safe=False,
     packages=find_packages(),
     install_requires=[
@@ -32,7 +32,7 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Security',
         'License :: MIT license',
-        'Programming Language :: Python :: 3.1',
+        'Programming Language :: Python :: 3.6',
     ],
     entry_points={
         'console_scripts': [
