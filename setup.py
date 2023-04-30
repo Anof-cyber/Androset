@@ -20,7 +20,6 @@ setup(
     url='https://github.com/Anof-cyber/androset',
     download_url='https://github.com/Anof-cyber/androset/archive/v1.1.zip',
     zip_safe=False,
-    packages=find_packages(),
     install_requires=[
         'pyOpenSSL==23.1.1',
         'termcolor==2.3.0'
@@ -34,6 +33,7 @@ setup(
         'License :: MIT license',
         'Programming Language :: Python :: 3.4',
     ],
+    python_requires='>=3.6',
     entry_points={
         'console_scripts': [
             'androset = androset:main'
