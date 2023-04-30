@@ -34,6 +34,9 @@ jobs:
     - name: Build package
       run: |
         pip install -r requirements.txt
+        python -m venv env
+        source env/bin/activate
+        python3 -m pip install -r requirements.txt
         python -m build
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
