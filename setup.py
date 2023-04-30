@@ -32,7 +32,7 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Security',
         'License :: MIT license',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.6.7',
     ],
     entry_points={
         'console_scripts': [
